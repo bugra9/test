@@ -4,7 +4,7 @@ language: node_js
 node_js:
   - "node"
 before_install:
-- sudo apt install pandoc texlive-xetex texlive-lang-european
+- sudo apt install pandoc texlive-full
 script: bash ./createPdf.sh
 after_success: bash ./push.sh
 env:
