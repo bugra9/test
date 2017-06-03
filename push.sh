@@ -9,7 +9,7 @@ upload_files() {
   git config --global user.name "Travis CI"
   git add .
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
-  git push https://${GH_TOKEN}@github.com/bugra9/test.git master
+  git push https://${GH_TOKEN}@github.com/bugra9/test.git HEAD:master
 }
 
 build
