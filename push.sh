@@ -9,8 +9,7 @@ upload_files() {
   git config --global user.name "Travis CI"
   git add .
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
-  git remote add origin-pages https://${GH_TOKEN}@github.com/bugra9/test.git > /dev/null 2>&1
-  git push --quiet --set-upstream origin-pages master
+  git push https://${GH_TOKEN}@github.com/bugra9/test.git master
 }
 
 build
