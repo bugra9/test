@@ -5,6 +5,9 @@ node_js:
   - "node"
 before_install:
 - sudo apt install pandoc texlive-full ttf-ubuntu-font-family
+before_script:
+- wget http://de.archive.ubuntu.com/ubuntu/pool/universe/t/texlive-extra/texlive-latex-extra_2015.20160320-1_all.deb
+- dpkg -i texlive-*.deb
 script: bash ./createPdf.sh
 after_success: bash ./push.sh
 env:

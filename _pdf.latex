@@ -201,7 +201,7 @@ $endif$
 
 
 \usepackage{etoc}
-%\etocchecksemptiness % do not display empty local table of contents
+\etocchecksemptiness % do not display empty local table of contents
 \etocnotocifnotoc % do not display empty global table of contents
 
 
