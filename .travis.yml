@@ -6,7 +6,7 @@ node_js:
 before_install:
 - wget https://github.com/scottkosty/install-tl-ubuntu/raw/master/install-tl-ubuntu && chmod +x ./install-tl-ubuntu
 - sudo ./install-tl-ubuntu
-- rm ./install-tl-ubuntu
+- export PATH=/Library/TeX/texbin:$PATH
 - sudo apt install pandoc ttf-ubuntu-font-family
 script: bash ./createPdf.sh
 after_success: bash ./push.sh
