@@ -1,0 +1,474 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  parallel
+0 upgraded, 1 newly installed, 0 to remove and 211 not upgraded.
+Need to get 202 kB of archives.
+After this operation, 639 kB of additional disk space will be used.
+Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/universe parallel all 20130922-1 [202 kB]
+Fetched 202 kB in 0s (0 B/s)
+Selecting previously unselected package parallel.
+(Reading database ... 88286 files and directories currently installed.)
+Preparing to unpack .../parallel_20130922-1_all.deb ...
+Adding 'diversion of /usr/bin/parallel to /usr/bin/parallel.moreutils by parallel'
+Adding 'diversion of /usr/share/man/man1/parallel.1.gz to /usr/share/man/man1/parallel.moreutils.1.gz by parallel'
+Unpacking parallel (20130922-1) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up parallel (20130922-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+gcc is already the newest version.
+gcc set to manually installed.
+libfile-fcntllock-perl is already the newest version.
+libfile-fcntllock-perl set to manually installed.
+fontconfig is already the newest version.
+fontconfig set to manually installed.
+unzip is already the newest version.
+The following extra packages will be installed:
+  debhelper dh-apparmor intltool-debian libencode-locale-perl
+  libfile-listing-perl libhtml-parser-perl libhtml-tagset-perl
+  libhtml-tree-perl libhttp-cookies-perl libhttp-date-perl
+  libhttp-message-perl libhttp-negotiate-perl libio-html-perl
+  libio-socket-ssl-perl liblwp-mediatypes-perl liblwp-protocol-https-perl
+  libnet-http-perl libnet-ssleay-perl liburi-perl libwww-robotrules-perl
+  po-debconf
+Suggested packages:
+  dh-make apparmor-easyprof libdata-dump-perl libcrypt-ssleay-perl
+  libauthen-ntlm-perl libmail-box-perl
+Recommended packages:
+  libhtml-format-perl libio-socket-inet6-perl libio-socket-ip-perl
+  libhtml-form-perl libhttp-daemon-perl libmailtools-perl
+  libmail-sendmail-perl
+The following NEW packages will be installed:
+  debhelper dh-apparmor equivs intltool-debian libencode-locale-perl
+  libfile-listing-perl libhtml-parser-perl libhtml-tagset-perl
+  libhtml-tree-perl libhttp-cookies-perl libhttp-date-perl
+  libhttp-message-perl libhttp-negotiate-perl libio-html-perl
+  libio-socket-ssl-perl liblwp-mediatypes-perl liblwp-protocol-https-perl
+  libnet-http-perl libnet-ssleay-perl liburi-perl libwww-perl
+  libwww-robotrules-perl po-debconf
+0 upgraded, 23 newly installed, 0 to remove and 211 not upgraded.
+Need to get 1,988 kB of archives.
+After this operation, 5,487 kB of additional disk space will be used.
+Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main intltool-debian all 0.35.0+20060710.1 [31.6 kB]
+Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main po-debconf all 1.0.16+nmu2ubuntu1 [210 kB]
+Get:3 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty-updates/main dh-apparmor all 2.10.95-0ubuntu2.6~14.04.1 [13.0 kB]
+Get:4 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main debhelper all 9.20131227ubuntu1 [604 kB]
+Get:5 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libencode-locale-perl all 1.03-1 [12.4 kB]
+Get:6 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libhttp-date-perl all 6.02-1 [10.4 kB]
+Get:7 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libfile-listing-perl all 6.04-1 [9,774 B]
+Get:8 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main liburi-perl all 1.60-1 [89.6 kB]
+Get:9 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libhtml-tagset-perl all 3.20-2 [13.5 kB]
+Get:10 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libhtml-parser-perl amd64 3.71-1build1 [98.2 kB]
+Get:11 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libhtml-tree-perl all 5.03-1 [215 kB]
+Get:12 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libio-html-perl all 1.00-1 [15.7 kB]
+Get:13 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main liblwp-mediatypes-perl all 6.02-1 [21.7 kB]
+Get:14 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libhttp-message-perl all 6.06-1 [78.7 kB]
+Get:15 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libhttp-cookies-perl all 6.00-2 [23.3 kB]
+Get:16 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libhttp-negotiate-perl all 6.00-2 [13.4 kB]
+Get:17 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libnet-ssleay-perl amd64 1.58-1 [243 kB]
+Get:18 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libio-socket-ssl-perl all 1.965-1ubuntu1 [73.7 kB]
+Get:19 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libnet-http-perl all 6.06-1 [24.2 kB]
+Get:20 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libwww-robotrules-perl all 6.01-1 [14.1 kB]
+Get:21 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libwww-perl all 6.05-2 [146 kB]
+Get:22 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty-updates/main liblwp-protocol-https-perl all 6.04-2ubuntu0.1 [7,644 B]
+Get:23 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/universe equivs all 2.0.9 [18.5 kB]
+Fetched 1,988 kB in 0s (17.8 MB/s)
+Selecting previously unselected package intltool-debian.
+(Reading database ... 88309 files and directories currently installed.)
+Preparing to unpack .../intltool-debian_0.35.0+20060710.1_all.deb ...
+Unpacking intltool-debian (0.35.0+20060710.1) ...
+Selecting previously unselected package po-debconf.
+Preparing to unpack .../po-debconf_1.0.16+nmu2ubuntu1_all.deb ...
+Unpacking po-debconf (1.0.16+nmu2ubuntu1) ...
+Selecting previously unselected package dh-apparmor.
+Preparing to unpack .../dh-apparmor_2.10.95-0ubuntu2.6~14.04.1_all.deb ...
+Unpacking dh-apparmor (2.10.95-0ubuntu2.6~14.04.1) ...
+Selecting previously unselected package debhelper.
+Preparing to unpack .../debhelper_9.20131227ubuntu1_all.deb ...
+Unpacking debhelper (9.20131227ubuntu1) ...
+Selecting previously unselected package libencode-locale-perl.
+Preparing to unpack .../libencode-locale-perl_1.03-1_all.deb ...
+Unpacking libencode-locale-perl (1.03-1) ...
+Selecting previously unselected package libhttp-date-perl.
+Preparing to unpack .../libhttp-date-perl_6.02-1_all.deb ...
+Unpacking libhttp-date-perl (6.02-1) ...
+Selecting previously unselected package libfile-listing-perl.
+Preparing to unpack .../libfile-listing-perl_6.04-1_all.deb ...
+Unpacking libfile-listing-perl (6.04-1) ...
+Selecting previously unselected package liburi-perl.
+Preparing to unpack .../liburi-perl_1.60-1_all.deb ...
+Unpacking liburi-perl (1.60-1) ...
+Selecting previously unselected package libhtml-tagset-perl.
+Preparing to unpack .../libhtml-tagset-perl_3.20-2_all.deb ...
+Unpacking libhtml-tagset-perl (3.20-2) ...
+Selecting previously unselected package libhtml-parser-perl.
+Preparing to unpack .../libhtml-parser-perl_3.71-1build1_amd64.deb ...
+Unpacking libhtml-parser-perl (3.71-1build1) ...
+Selecting previously unselected package libhtml-tree-perl.
+Preparing to unpack .../libhtml-tree-perl_5.03-1_all.deb ...
+Unpacking libhtml-tree-perl (5.03-1) ...
+Selecting previously unselected package libio-html-perl.
+Preparing to unpack .../libio-html-perl_1.00-1_all.deb ...
+Unpacking libio-html-perl (1.00-1) ...
+Selecting previously unselected package liblwp-mediatypes-perl.
+Preparing to unpack .../liblwp-mediatypes-perl_6.02-1_all.deb ...
+Unpacking liblwp-mediatypes-perl (6.02-1) ...
+Selecting previously unselected package libhttp-message-perl.
+Preparing to unpack .../libhttp-message-perl_6.06-1_all.deb ...
+Unpacking libhttp-message-perl (6.06-1) ...
+Selecting previously unselected package libhttp-cookies-perl.
+Preparing to unpack .../libhttp-cookies-perl_6.00-2_all.deb ...
+Unpacking libhttp-cookies-perl (6.00-2) ...
+Selecting previously unselected package libhttp-negotiate-perl.
+Preparing to unpack .../libhttp-negotiate-perl_6.00-2_all.deb ...
+Unpacking libhttp-negotiate-perl (6.00-2) ...
+Selecting previously unselected package libnet-ssleay-perl.
+Preparing to unpack .../libnet-ssleay-perl_1.58-1_amd64.deb ...
+Unpacking libnet-ssleay-perl (1.58-1) ...
+Selecting previously unselected package libio-socket-ssl-perl.
+Preparing to unpack .../libio-socket-ssl-perl_1.965-1ubuntu1_all.deb ...
+Unpacking libio-socket-ssl-perl (1.965-1ubuntu1) ...
+Selecting previously unselected package libnet-http-perl.
+Preparing to unpack .../libnet-http-perl_6.06-1_all.deb ...
+Unpacking libnet-http-perl (6.06-1) ...
+Selecting previously unselected package libwww-robotrules-perl.
+Preparing to unpack .../libwww-robotrules-perl_6.01-1_all.deb ...
+Unpacking libwww-robotrules-perl (6.01-1) ...
+Selecting previously unselected package libwww-perl.
+Preparing to unpack .../libwww-perl_6.05-2_all.deb ...
+Unpacking libwww-perl (6.05-2) ...
+Selecting previously unselected package liblwp-protocol-https-perl.
+Preparing to unpack .../liblwp-protocol-https-perl_6.04-2ubuntu0.1_all.deb ...
+Unpacking liblwp-protocol-https-perl (6.04-2ubuntu0.1) ...
+Selecting previously unselected package equivs.
+Preparing to unpack .../archives/equivs_2.0.9_all.deb ...
+Unpacking equivs (2.0.9) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up intltool-debian (0.35.0+20060710.1) ...
+Setting up po-debconf (1.0.16+nmu2ubuntu1) ...
+Setting up dh-apparmor (2.10.95-0ubuntu2.6~14.04.1) ...
+Setting up debhelper (9.20131227ubuntu1) ...
+Setting up libencode-locale-perl (1.03-1) ...
+Setting up libhttp-date-perl (6.02-1) ...
+Setting up libfile-listing-perl (6.04-1) ...
+Setting up liburi-perl (1.60-1) ...
+Setting up libhtml-tagset-perl (3.20-2) ...
+Setting up libhtml-parser-perl (3.71-1build1) ...
+Setting up libhtml-tree-perl (5.03-1) ...
+Setting up libio-html-perl (1.00-1) ...
+Setting up liblwp-mediatypes-perl (6.02-1) ...
+Setting up libhttp-message-perl (6.06-1) ...
+Setting up libhttp-cookies-perl (6.00-2) ...
+Setting up libhttp-negotiate-perl (6.00-2) ...
+Setting up libnet-ssleay-perl (1.58-1) ...
+Setting up libio-socket-ssl-perl (1.965-1ubuntu1) ...
+Setting up libnet-http-perl (6.06-1) ...
+Setting up libwww-robotrules-perl (6.01-1) ...
+Setting up equivs (2.0.9) ...
+Setting up libwww-perl (6.05-2) ...
+Setting up liblwp-protocol-https-perl (6.04-2ubuntu0.1) ...
+dh_testdir
+dh_testroot
+dh_prep
+dh_testdir
+dh_testroot
+dh_install
+dh_installdocs
+dh_installchangelogs
+dh_compress
+dh_fixperms
+dh_installdeb
+dh_gencontrol
+dh_md5sums
+dh_builddeb
+dpkg-deb: building package `texlive-local' in `../texlive-local_2016-1~9_all.deb'.
+
+The package has been created.
+Attention, the package has been created in the current directory,
+not in ".." as indicated by the message above!
+Selecting previously unselected package texlive-local.
+(Reading database ... 89195 files and directories currently installed.)
+Preparing to unpack .../texlive-local_2016-1~9_all.deb ...
+Unpacking texlive-local (2016-1~9) ...
+Setting up texlive-local (2016-1~9) ...
+--2017-06-10 09:50:53--  http://ctan.sharelatex.com/tex-archive/systems/texlive/tlnet//install-tl-unx.tar.gz
+Resolving ctan.sharelatex.com (ctan.sharelatex.com)... 173.255.234.32
+Connecting to ctan.sharelatex.com (ctan.sharelatex.com)|173.255.234.32|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4020789 (3.8M) [application/x-gzip]
+Saving to: ‘install-tl-unx.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  1%  886K 4s
+    50K .......... .......... .......... .......... ..........  2% 1.73M 3s
+   100K .......... .......... .......... .......... ..........  3%  294M 2s
+   150K .......... .......... .......... .......... ..........  5%  197M 2s
+   200K .......... .......... .......... .......... ..........  6% 1.75M 2s
+   250K .......... .......... .......... .......... ..........  7%  237M 1s
+   300K .......... .......... .......... .......... ..........  8%  298M 1s
+   350K .......... .......... .......... .......... .......... 10%  366M 1s
+   400K .......... .......... .......... .......... .......... 11% 1.77M 1s
+   450K .......... .......... .......... .......... .......... 12%  205M 1s
+   500K .......... .......... .......... .......... .......... 14%  172M 1s
+   550K .......... .......... .......... .......... .......... 15%  311M 1s
+   600K .......... .......... .......... .......... .......... 16%  422M 1s
+   650K .......... .......... .......... .......... .......... 17%  407M 1s
+   700K .......... .......... .......... .......... .......... 19%  370M 1s
+   750K .......... .......... .......... .......... .......... 20%  415M 1s
+   800K .......... .......... .......... .......... .......... 21%  419M 1s
+   850K .......... .......... .......... .......... .......... 22% 1.81M 1s
+   900K .......... .......... .......... .......... .......... 24%  409M 1s
+   950K .......... .......... .......... .......... .......... 25%  433M 0s
+  1000K .......... .......... .......... .......... .......... 26%  355M 0s
+  1050K .......... .......... .......... .......... .......... 28%  397M 0s
+  1100K .......... .......... .......... .......... .......... 29%  420M 0s
+  1150K .......... .......... .......... .......... .......... 30%  346M 0s
+  1200K .......... .......... .......... .......... .......... 31%  352M 0s
+  1250K .......... .......... .......... .......... .......... 33%  385M 0s
+  1300K .......... .......... .......... .......... .......... 34%  392M 0s
+  1350K .......... .......... .......... .......... .......... 35%  446M 0s
+  1400K .......... .......... .......... .......... .......... 36%  349M 0s
+  1450K .......... .......... .......... .......... .......... 38%  440M 0s
+  1500K .......... .......... .......... .......... .......... 39%  451M 0s
+  1550K .......... .......... .......... .......... .......... 40%  456M 0s
+  1600K .......... .......... .......... .......... .......... 42%  380M 0s
+  1650K .......... .......... .......... .......... .......... 43%  362M 0s
+  1700K .......... .......... .......... .......... .......... 44% 1.85M 0s
+  1750K .......... .......... .......... .......... .......... 45%  313M 0s
+  1800K .......... .......... .......... .......... .......... 47%  387M 0s
+  1850K .......... .......... .......... .......... .......... 48%  433M 0s
+  1900K .......... .......... .......... .......... .......... 49%  337M 0s
+  1950K .......... .......... .......... .......... .......... 50%  424M 0s
+  2000K .......... .......... .......... .......... .......... 52%  393M 0s
+  2050K .......... .......... .......... .......... .......... 53%  437M 0s
+  2100K .......... .......... .......... .......... .......... 54%  462M 0s
+  2150K .......... .......... .......... .......... .......... 56%  429M 0s
+  2200K .......... .......... .......... .......... .......... 57%  323M 0s
+  2250K .......... .......... .......... .......... .......... 58%  359M 0s
+  2300K .......... .......... .......... .......... .......... 59%  331M 0s
+  2350K .......... .......... .......... .......... .......... 61%  406M 0s
+  2400K .......... .......... .......... .......... .......... 62%  387M 0s
+  2450K .......... .......... .......... .......... .......... 63%  426M 0s
+  2500K .......... .......... .......... .......... .......... 64%  401M 0s
+  2550K .......... .......... .......... .......... .......... 66%  411M 0s
+  2600K .......... .......... .......... .......... .......... 67%  366M 0s
+  2650K .......... .......... .......... .......... .......... 68%  437M 0s
+  2700K .......... .......... .......... .......... .......... 70%  405M 0s
+  2750K .......... .......... .......... .......... .......... 71%  417M 0s
+  2800K .......... .......... .......... .......... .......... 72%  368M 0s
+  2850K .......... .......... .......... .......... .......... 73%  457M 0s
+  2900K .......... .......... .......... .......... .......... 75%  464M 0s
+  2950K .......... .......... .......... .......... .......... 76%  456M 0s
+  3000K .......... .......... .......... .......... .......... 77%  385M 0s
+  3050K .......... .......... .......... .......... .......... 78%  438M 0s
+  3100K .......... .......... .......... .......... .......... 80%  458M 0s
+  3150K .......... .......... .......... .......... .......... 81%  443M 0s
+  3200K .......... .......... .......... .......... .......... 82%  394M 0s
+  3250K .......... .......... .......... .......... .......... 84%  456M 0s
+  3300K .......... .......... .......... .......... .......... 85%  448M 0s
+  3350K .......... .......... .......... .......... .......... 86%  466M 0s
+  3400K .......... .......... .......... .......... .......... 87% 1.99M 0s
+  3450K .......... .......... .......... .......... .......... 89%  346M 0s
+  3500K .......... .......... .......... .......... .......... 90%  436M 0s
+  3550K .......... .......... .......... .......... .......... 91%  430M 0s
+  3600K .......... .......... .......... .......... .......... 92%  423M 0s
+  3650K .......... .......... .......... .......... .......... 94%  387M 0s
+  3700K .......... .......... .......... .......... .......... 95%  437M 0s
+  3750K .......... .......... .......... .......... .......... 96%  460M 0s
+  3800K .......... .......... .......... .......... .......... 98%  457M 0s
+  3850K .......... .......... .......... .......... .......... 99%  327M 0s
+  3900K .......... .......... ......                          100%  436M=0.2s
+
+2017-06-10 09:50:53 (16.9 MB/s) - ‘install-tl-unx.tar.gz’ saved [4020789/4020789]
+
+/usr/share/fonts: caching, new cache contents: 0 fonts, 4 dirs
+/usr/share/fonts/X11: caching, new cache contents: 0 fonts, 4 dirs
+/usr/share/fonts/X11/Type1: caching, new cache contents: 35 fonts, 0 dirs
+/usr/share/fonts/X11/encodings: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/X11/encodings/large: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/X11/misc: caching, new cache contents: 59 fonts, 1 dirs
+/usr/share/fonts/X11/misc/dosemu: caching, new cache contents: 2 fonts, 0 dirs
+/usr/share/fonts/X11/util: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/cmap: caching, new cache contents: 0 fonts, 5 dirs
+/usr/share/fonts/cmap/adobe-cns1: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/adobe-gb1: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/adobe-japan1: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/adobe-japan2: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/adobe-korea1: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/truetype: caching, new cache contents: 0 fonts, 3 dirs
+/usr/share/fonts/truetype/dejavu: caching, new cache contents: 21 fonts, 0 dirs
+/usr/share/fonts/truetype/liberation: caching, new cache contents: 16 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-dejavu: caching, new cache contents: 15 fonts, 0 dirs
+/usr/share/fonts/type1: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/type1/gsfonts: caching, new cache contents: 35 fonts, 0 dirs
+/usr/local/share/fonts: caching, new cache contents: 0 fonts, 0 dirs
+/.local/share/fonts: skipping, no such directory
+/usr/local/texlive/2017/texmf-dist/fonts/opentype: caching, new cache contents: 0 fonts, 12 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/adobe: caching, new cache contents: 0 fonts, 3 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/adobe/sourcecodepro: caching, new cache contents: 14 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/adobe/sourcesanspro: caching, new cache contents: 12 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/adobe/sourceserifpro: caching, new cache contents: 6 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/arkandis: caching, new cache contents: 0 fonts, 5 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/arkandis/accanthis: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/arkandis/berenisadf: caching, new cache contents: 8 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/arkandis/gillius: caching, new cache contents: 16 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/arkandis/mintspirit: caching, new cache contents: 8 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/arkandis/universalis: caching, new cache contents: 8 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/catharsis: caching, new cache contents: 0 fonts, 1 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/catharsis/cormorantgaramond: caching, new cache contents: 10 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/gust: caching, new cache contents: 0 fonts, 1 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/gust/poltawski: caching, new cache contents: 40 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/iginomarini: caching, new cache contents: 0 fonts, 1 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/iginomarini/imfellenglish: caching, new cache contents: 3 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/impallari: caching, new cache contents: 0 fonts, 7 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/impallari/cabin: caching, new cache contents: 16 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/impallari/librebaskerville: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/impallari/librebodoni: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/impallari/librecaslon: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/impallari/lobster2: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/impallari/quattrocento: caching, new cache contents: 8 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/impallari/raleway: caching, new cache contents: 18 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/kosch: caching, new cache contents: 0 fonts, 1 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/kosch/crimson: caching, new cache contents: 6 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/novel: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/nowacki: caching, new cache contents: 0 fonts, 2 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/nowacki/iwona: caching, new cache contents: 20 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/nowacki/kurier: caching, new cache contents: 20 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/omnibus-type: caching, new cache contents: 0 fonts, 1 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/omnibus-type/asapsym: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public: caching, new cache contents: 0 fonts, 63 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/Asana-Math: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/almfixed: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/antt: caching, new cache contents: 16 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/baskervaldx: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/baskervillef: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/ccicons: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/chivo: caching, new cache contents: 8 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/cm-unicode: caching, new cache contents: 33 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/cochineal: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/cyklop: caching, new cache contents: 2 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/dantelogo: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/drm: caching, new cache contents: 332 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/ebgaramond: caching, new cache contents: 3 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/erewhon: caching, new cache contents: 6 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/fandol: caching, new cache contents: 8 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/fbb: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/fdsymbol: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/fetamont: caching, new cache contents: 36 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/fira: caching, new cache contents: 25 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/fontawesome: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/fonts-churchslavonic: caching, new cache contents: 6 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/frederika2016: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/gfsartemisia: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/gfsbaskerville: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/gfsbodoni: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/gfscomplutum: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/gfsdidot: caching, new cache contents: 5 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/gfsneohellenic: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/gfsporson: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/gfssolomos: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/gnu-freefont: caching, new cache contents: 12 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/heuristica: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/inconsolata: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/libertine: caching, new cache contents: 17 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/libertinus: caching, new cache contents: 14 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lilyglyphs: caching, new cache contents: 9 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm: caching, new cache contents: 72 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm-math: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/mdsymbol: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/miama: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/missaali: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/mnsymbol: caching, new cache contents: 14 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/montserrat: caching, new cache contents: 36 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/newpx: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/newtx: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/nimbus15: caching, new cache contents: 18 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/ocr-b-outline: caching, new cache contents: 6 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/oldstandard: caching, new cache contents: 3 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/phaistos: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/philokalia: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/playfair: caching, new cache contents: 6 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/punknova: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/rosario: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/semaphor: caching, new cache contents: 15 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/skaknew: caching, new cache contents: 5 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/stix: caching, new cache contents: 5 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/tempora: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/tex-gyre: caching, new cache contents: 33 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/tex-gyre-math: caching, new cache contents: 5 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/umtypewriter: caching, new cache contents: 5 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/xcharter: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/xits: caching, new cache contents: 6 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/public/yinit-otf: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/rozynski: caching, new cache contents: 0 fonts, 1 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/opentype/rozynski/comicneue: caching, new cache contents: 12 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype: caching, new cache contents: 0 fonts, 11 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/bh: caching, new cache contents: 0 fonts, 1 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/bh/gofonts: caching, new cache contents: 12 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/google: caching, new cache contents: 0 fonts, 4 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/google/arimo: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/google/noto: caching, new cache contents: 12 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/google/roboto: caching, new cache contents: 22 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/google/tinos: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/huerta: caching, new cache contents: 0 fonts, 2 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/huerta/alegreya: caching, new cache contents: 40 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/huerta/caladea: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/impallari: caching, new cache contents: 0 fonts, 1 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/impallari/lobster2: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/intel: caching, new cache contents: 0 fonts, 1 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/intel/clearsans: caching, new cache contents: 8 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/muhafara: caching, new cache contents: 0 fonts, 1 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/muhafara/overlock: caching, new cache contents: 7 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/ndiscovered: caching, new cache contents: 0 fonts, 1 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/ndiscovered/cinzel: caching, new cache contents: 6 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/paratype: caching, new cache contents: 0 fonts, 3 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/paratype/ptmono: caching, new cache contents: 2 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/paratype/ptsans: caching, new cache contents: 8 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/paratype/ptserif: caching, new cache contents: 6 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public: caching, new cache contents: 0 fonts, 27 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/Asana-Math: caching, new cache contents: 2 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/academicons: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/alkalami: caching, new cache contents: 2 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/almfixed: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/amiri: caching, new cache contents: 6 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/anonymouspro: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/arphic-ttf: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/baekmuk: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/belleek: caching, new cache contents: 3 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/comfortaa: caching, new cache contents: 3 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/dejavu: caching, new cache contents: 21 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/droid: caching, new cache contents: 7 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/fonetika: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/fontmfizz: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/fonts-churchslavonic: caching, new cache contents: 6 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/gentium-tug: caching, new cache contents: 16 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/gnu-freefont: caching, new cache contents: 12 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/gregoriotex: caching, new cache contents: 13 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/ipaex: caching, new cache contents: 6 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/junicode: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/lato: caching, new cache contents: 10 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/marvosym: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/opensans: caching, new cache contents: 12 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/padauk: caching, new cache contents: 4 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/typicons: caching, new cache contents: 1 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/unfonts-core: caching, new cache contents: 12 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/public/unfonts-extra: caching, new cache contents: 11 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/sorkin: caching, new cache contents: 0 fonts, 1 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/sorkin/merriweather: caching, new cache contents: 16 fonts, 0 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/typoland: caching, new cache contents: 0 fonts, 1 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype/typoland/carlito: caching, new cache contents: 4 fonts, 0 dirs
+/usr/share/fonts: caching, new cache contents: 0 fonts, 4 dirs
+/usr/local/share/fonts: caching, new cache contents: 0 fonts, 0 dirs
+/.local/share/fonts: skipping, no such directory
+/usr/local/texlive/2017/texmf-dist/fonts/opentype: caching, new cache contents: 0 fonts, 12 dirs
+/usr/local/texlive/2017/texmf-dist/fonts/truetype: caching, new cache contents: 0 fonts, 11 dirs
+/var/cache/fontconfig: cleaning cache directory
+/.cache/fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded
+texhash: Updating /usr/local/texlive/2017/texmf-config/ls-R... 
+texhash: Updating /usr/local/texlive/2017/texmf-dist/ls-R... 
+texhash: Updating /usr/local/texlive/2017/texmf-var/ls-R... 
+texhash: Updating /usr/local/texlive/texmf-local/ls-R... 
+texhash: Done.

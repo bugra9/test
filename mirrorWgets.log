@@ -1,0 +1,30 @@
+Command exited with non-zero status 4
+4 0.72 wget --quiet http://mirrors.cqu.edu.cn/CTAN/indexing/forindex.zip
+0 2.22 wget --quiet http://mirror.ufs.ac.za/ctan/indexing/forindex.zip
+0 2.44 wget --quiet http://ftp.leg.uct.ac.za/pub/packages/ctan/indexing/forindex.zip
+0 1.90 wget --quiet http://mirrors.tuna.tsinghua.edu.cn/CTAN/indexing/forindex.zip
+0 2.36 wget --quiet http://ftp.jaist.ac.jp/pub/CTAN/indexing/forindex.zip
+0 7.15 wget --quiet http://ftp.ktug.org/tex-archive/indexing/forindex.zip
+0 0.96 wget --quiet http://mirrors.nic.cz/pub/tex-archive/indexing/forindex.zip
+0 1.04 wget --quiet http://ctan.space-pro.be/tex-archive/indexing/forindex.zip
+0 2.04 wget --quiet http://ftp.rrze.uni-erlangen.de/ctan/indexing/forindex.zip
+0 2.19 wget --quiet http://vesta.informatik.rwth-aachen.de/ftp/pub/mirror/ctan/indexing/forindex.zip
+0 2.70 wget --quiet http://ctan.mines-albi.fr/indexing/forindex.zip
+0 2.05 wget --quiet http://mirrors.ircam.fr/pub/CTAN/indexing/forindex.zip
+0 2.04 wget --quiet http://ctan.cs.uu.nl/indexing/forindex.zip
+0 1.18 wget --quiet http://mirrors.up.pt/pub/CTAN/indexing/forindex.zip
+0 2.60 wget --quiet http://ctan.uib.no/indexing/forindex.zip
+0 1.08 wget --quiet http://ctan.ijs.si/tex-archive/indexing/forindex.zip
+0 2.04 wget --quiet http://anorien.csc.warwick.ac.uk/mirrors/CTAN/indexing/forindex.zip
+0 0.43 wget --quiet http://ctan.math.ca/tex-archive/indexing/forindex.zip
+0 0.45 wget --quiet http://muug.ca/mirror/ctan/indexing/forindex.zip
+0 2.81 wget --quiet http://ftp.cc.uoc.gr/mirrors/CTAN/indexing/forindex.zip
+0 0.60 wget --quiet http://ctan.math.utah.edu/ctan/tex-archive/indexing/forindex.zip
+0 0.21 wget --quiet http://ctan.sharelatex.com/tex-archive/indexing/forindex.zip
+0 0.81 wget --quiet http://mirror.hmc.edu/ctan/indexing/forindex.zip
+0 0.51 wget --quiet http://mirror.utexas.edu/ctan/indexing/forindex.zip
+0 0.52 wget --quiet http://mirrors.rit.edu/CTAN/indexing/forindex.zip
+Command exited with non-zero status 8
+8 0.80 wget --quiet http://mirror.lagoon.nc/ctan/indexing/forindex.zip
+0 6.90 wget --quiet http://mirrors.mi.ras.ru/CTAN/indexing/forindex.zip
+0 2.61 wget --quiet http://ftp.inf.utfsm.cl/pub/tex-archive/indexing/forindex.zip
