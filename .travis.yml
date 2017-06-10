@@ -4,8 +4,8 @@ language: node_js
 node_js:
   - "node"
 before_install:
-- sudo add-apt-repository ppa:jonathonf/texlive
-- sudo apt update
+- sudo add-apt-repository ppa:jonathonf/texlive -y
+- sudo apt update -q
 - sudo apt install texlive-full
 - sudo apt install pandoc ttf-ubuntu-font-family
 script: bash ./createPdf.sh
