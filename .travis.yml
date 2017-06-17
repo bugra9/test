@@ -4,20 +4,8 @@ language: node_js
 node_js:
   - "node"
 before_install:
-- wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
-- tar -xzf install-tl-unx.tar.gz
-- cd install-tl-20170615
-- sudo ./install-tl
-- export PATH=/usr/local/texlive/2017/bin/x86_64-linux:$PATH    
-- export INFOPATH=$INFOPATH:/usr/local/texlive/2017/texmf-dist/doc/info
-- export MANPATH=$MANPATH:/usr/local/texlive/2017/texmf-dist/doc/man
-- sudo apt install equivs --no-install-recommends
-- mkdir -p /tmp/tl-equivs && cd /tmp/tl-equivs
-- equivs-control texlive-local
-- wget -O texlive-local http://www.tug.org/texlive/files/debian-equivs-2016-ex.txt
-- equivs-build texlive-local
-- sudo dpkg -i texlive-local_2016-2_all.deb
-- sudo apt install -f
+- sudo apt install texlive-full
+- sudo tlmgr update --all
 - sudo apt install pandoc ttf-ubuntu-font-family
 script: bash ./createPdf.sh
 after_success: bash ./push.sh
