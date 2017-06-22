@@ -5,7 +5,9 @@ node_js:
   - "node"
 before_install:
 - sudo apt install pandoc ttf-ubuntu-font-family
-script: bash ./createPdf.sh
+script: 
+- bash ./install.sh
+- bash ./createPdf.sh
 after_success: bash ./push.sh
 env:
   global:
