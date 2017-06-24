@@ -4,10 +4,10 @@ mkdir fake
 cd fake
 
 # you can replace $HOME with any dir
-sed -i 's@\$TEXLIVEHOME@'"$HOME"'@' ../texlive.profile
+sed -i 's@\$TEXLIVEHOME@'"$HOME"'@' ../../../texlive.profile
 wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
 tar zxf install-tl-unx.tar.gz
-./install-tl*/install-tl -profile ../texlive.profile
+./install-tl*/install-tl -profile ../../../texlive.profile
 
 # texlive.tar.gz is a portable and full TeXLive package
 tar zcf texlive.tar.gz -C $HOME texlive
