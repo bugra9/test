@@ -1,7 +1,9 @@
 cd .travis-ci
 for VAR in $(find . -maxdepth 1 -type d -name [^\.]\* | sed 's:^\./::')
 do
-	bash $VAR/run.sh
+	cd $VAR
+	bash run.sh
+	cd ..
 done
 
 cd ..
