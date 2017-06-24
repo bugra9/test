@@ -1,4 +1,5 @@
 cd .travis-ci
+ls -l
 for VAR in $(find . -maxdepth 1 -type d -name [^\.]\* | sed 's:^\./::')
 do
 	echo $VAR
