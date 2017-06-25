@@ -2,8 +2,10 @@
 
 # sudo apt install pandoc texlive-xetex texlive-lang-european
 
+cd ..
+cd ..
 mkdir temp
-cp ../../$1* temp/
+cp $1* temp/
 
 FILES=./temp/*
 latexTemplate="_pdf.latex"
@@ -21,3 +23,4 @@ do
 done
 
 rm -r temp
+cd .travis-ci/pdf
