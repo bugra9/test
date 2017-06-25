@@ -3,7 +3,7 @@
 # sudo apt install pandoc texlive-xetex texlive-lang-european
 
 mkdir temp
-cp $1* temp/
+cp ../../$1* temp/
 
 FILES=./temp/*
 latexTemplate="_pdf.latex"
