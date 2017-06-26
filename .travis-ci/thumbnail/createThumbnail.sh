@@ -1,7 +1,7 @@
 cd ..
 cd ..
 
-DEST=$(sed -i -- 's/assets\/post\/(.*)\/(.*)/assets\/post\/(.*)\/card_\2/g' $1)
+DEST=${1/%\//\/card_}
 echo $DEST
 convert -resize 1024X768 $1 $DEST
 
