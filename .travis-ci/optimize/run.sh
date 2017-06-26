@@ -19,5 +19,5 @@ if [[ $RUN == 1 ]]; then
   done
   
 else
-  echo "No new image found."
+  echo "No image found."
 fi
