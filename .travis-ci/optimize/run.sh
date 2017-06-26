@@ -1,3 +1,5 @@
+echo $(git diff-tree --no-commit-id --name-only -r HEAD~1..HEAD)
+echo $(git diff-tree --no-commit-id --name-status -r HEAD~1..HEAD)
 RUN=0
 for VAR in $(git diff-tree --no-commit-id --name-only -r HEAD~1..HEAD)
 do
