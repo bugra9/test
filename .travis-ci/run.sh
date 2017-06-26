@@ -1,5 +1,5 @@
 cd .travis-ci
-git log --name-only -n 1 HEAD~1..HEAD
+git diff-tree --no-commit-id --name-only -r HEAD~1..HEAD
 find . -maxdepth 1 -type d -name [^\.]\* | sed 's:^\./::'
 for VAR2 in $(find . -maxdepth 1 -type d -name [^\.]\* | sed 's:^\./::')
 do
