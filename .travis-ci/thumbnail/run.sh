@@ -19,8 +19,3 @@ if [[ $RUN == 1 ]]; then
 else
   echo "No new image found."
 fi
-
-
-sudo apt-get install imagemagick
-convert  -resize 1024X768  source.png dest.jpg
-convert  -resize 1024X768  source.png dest.jpg
