@@ -8,7 +8,7 @@ mkdir temp
 cp $1* temp/
 
 FILES=./temp/*
-latexTemplate="_pdf.latex"
+latexTemplate=".travis-ci/pdf/_pdf.latex"
 mainFont="Ubuntu"
 lang="turkish"
 for f in $FILES
