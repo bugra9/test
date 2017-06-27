@@ -1,5 +1,6 @@
 os: linux
 dist: trusty
+sudo: required
 script: bash ./.travis-ci/run.sh
 env:
   global:
