@@ -1,10 +1,5 @@
 os: linux
 dist: trusty
-language: node_js
-node_js:
-  - "node"
-before_install:
-- sudo apt install pandoc ttf-ubuntu-font-family
 script: bash ./.travis-ci/run.sh
 env:
   global:
