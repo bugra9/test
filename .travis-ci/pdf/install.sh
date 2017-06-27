@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt install pandoc ttf-ubuntu-font-family
+
 mkdir fake
 cd fake
 
