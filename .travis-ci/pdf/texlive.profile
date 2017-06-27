@@ -33,7 +33,6 @@ collection-langeuropean 1
 collection-langfrench 1
 collection-langgerman 1
 collection-langgreek 1
-collection-langindic 1
 collection-langitalian 1
 collection-langjapanese 1
 collection-langkorean 1
