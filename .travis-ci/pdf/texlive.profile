@@ -53,7 +53,6 @@ collection-pictures 1
 collection-plainextra 1
 collection-pstricks 1
 collection-publishers 1
-collection-science 1
 collection-texworks 1
 collection-xetex 1
 option_adjustrepo 1
